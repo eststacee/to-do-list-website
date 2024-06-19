@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body {
+    background-color: #f7f7f7;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gochi Hand', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.heading__title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.form__label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form__input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.button span {
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.button:active, .button:focus {
+    outline: none;
+}
+
+.toDoList {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.toDoList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.toDoList li:hover {
+    text-decoration: line-through wavy;
+    color: #007bff;
+}
